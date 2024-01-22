@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // //membuat variable nilaiAkhir yg mana nilaiAkhirny di input lewat prompt
+        // let nilaiAkhir = prompt(`Masukkan Nilai Akhir`);
+
+        // //mengecek kondisi dari variable nilaiAkhir 
+        // if(nilaiAkhir >= 80 && nilaiAkhir <= 100) {
+        //     document.write(`Nilai Akhir anda A (${nilaiAkhir})`);
+        // }else if(nilaiAkhir >= 70 && nilaiAkhir <= 80) {
+        //     document.write(`Nilai Akhir anda B (${nilaiAkhir})`);
+        // }else if(nilaiAkhir >= 60 && nilaiAkhir <= 70) {
+        //     document.write(`Nilai Akhir anda C (${nilaiAkhir})`);
+        // }else {
+        //     document.write(`Anda belum mengikuti Ujian`);
+        // }
+
+        // let userRole = prompt ("Login Sebagai : ");
+        
+        // if(userRole == "Admin") {
+        //     document.write(`Selamat Datang Admin`);
+        // }else if (userRole == "Operator") {
+        //     document.write(`Selamat Datang Operator`);
+        // }else {
+        //     document.write(`Anda Dilarang Mengakses Halaman Ini`);
+        // }
+
+        let TimA = ( 96 + 108 + 89 )/ 3;
+        let TimB = (88 + 91 + 110) / 3;
+
+        // const timA = a / 3;
+        // const timB = b / 3;
+
+        document.write(`Rata rata Tim A : (${TimA.toFixed(1)})`);
+        document.write(`<br>`)
+        document.write(`Rata rata Tim B : (${TimB.toFixed(1)})`);
+        document.write(`<br>`)
+
+        if(TimA > TimB ){
+            document.write(`Tim A menang Dengan Rata Rata ${TimA.toFixed(1)}`)
+        }else if (TimA == TimB){
+            document.write(`Rata Rata Tim A ${TimA.toFixed(1)} sama dengan rata rata tim B ${TimB.toFixed(1)}`)
+        }else{
+            document.write(`Tim B Menang dengn Rata Rata ${TimB.toFixed(1)}`)
+        }
+        
+        
+    </script>
+</body>
+</html>
