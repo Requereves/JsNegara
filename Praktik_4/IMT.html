@@ -23,17 +23,17 @@
 
     const MadanHigherIMT = TotalMadan > TotalJoan;
     
-    console.log(`Imt Madan: ${TotalMadan}`)
-    console.log(`Imt Joan:  ${TotalJoan}`)
+    console.log(`Imt Madan: ${TotalMadan.toFixed(1)}`)
+    console.log(`Imt Joan:  ${TotalJoan.toFixed(1)}`)
     console.log(`Perbandingan IMT Madan dan Joan : ${MadanHigherIMT}`)
     // alert(`Perbandingan IMT Madan dan Joan : ${MadanHigherIMT}`)
     
     if (MadanHigherIMT  == true) { 
 
-        console.log(`IMT MADAN (${TotalMadan}) LEBIH TINGGI DARI IMT JOAN (${TotalJoan})`)
+        console.log(`IMT MADAN (${TotalMadan.toFixed(1)}) LEBIH TINGGI DARI IMT JOAN (${TotalJoan.toFixed(1)})`)
     }else {
 
-        console.log(`IMT MADAN (${TotalMadan}) LEBIH KECIL DARI IMT JOAN (${TotalJoan})`)
+        console.log(`IMT MADAN (${TotalMadan.toFixed(1)}) LEBIH KECIL DARI IMT JOAN (${TotalJoan.toFixed(1)})`)
     }
 
 
